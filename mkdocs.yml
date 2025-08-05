@@ -1,0 +1,23 @@
+site_name: Minecraft For Dev
+theme: 
+  name: readthedocs
+  language: kr
+nav: 
+  - 홈: index.md
+  - 데이터팩: 
+    - 홈 : datapack/index.md
+  - 프로그램: 
+    - 홈 : program/index.md
+  - 리소스팩: 
+    - 홈 : resourcepack/index.md
+    - 폰트 :
+      - 홈 : resourcepack/font/index.md
+      - providers : resourcepack/font/element/providers.md
+      - bitmap : resourcepack/font/element/bitmap.md
+      - ttf : resourcepack/font/element/ttf.md
+      - space : resourcepack/font/element/space.md
+      - unihex : resourcepack/font/element/unihex.md
+      - reference : resourcepack/font/element/reference.md
+    - 셰이더 :
+      - 홈 : resourcepack/shader/index.md
+      - core : resourcepack/shader/element/core.md
