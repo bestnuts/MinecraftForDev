@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../../../img/favicon.ico" />
+    <title>ttf - Minecraft For Dev</title>
+    <link rel="stylesheet" href="../../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "ttf";
+        var mkdocs_page_input_path = "resourcepack\\font\\element\\ttf.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../../.." class="icon icon-home"> Minecraft For Dev
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../../..">홈</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">데이터팩</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../../datapack/">홈</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">프로그램</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../../program/">홈</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">리소스팩</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../../../">홈</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" >폰트</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../../">홈</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../providers/">providers</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../bitmap/">bitmap</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">ttf</a>
+    <ul class="current">
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../space/">space</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../unihex/">unihex</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../reference/">reference</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >셰이더</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../shader/">홈</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../shader/element/core/">core</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../..">Minecraft For Dev</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">리소스팩</li>
+          <li class="breadcrumb-item">폰트</li>
+      <li class="breadcrumb-item active">ttf</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="_1">설명</h1>
+<p>TrueTypeFont 를 마인크래프트 내로 불러오기 위해 쓰입니다.  </p>
+<h1 id="_2">포맷</h1>
+<pre><code>type : ttf
+file : .ttf 리소스 경로
+oversample : 렌더링될 해상도입니다.
+shift : 두 개의 정수로 구성된 배열입니다.
+    : 수평으로의 이동 위치입니다.
+    : 수직으로의 이동 위치입니다.
+size : 출력 크기를 결정합니다.
+skip : 문자 혹은 문자로 구성된 배열로 불러올때 제외할 문자들입니다.
+</code></pre>
+<h1 id="_3">예시</h1>
+<p><code>커스텀 폰트 예시</code></p>
+<pre><code>{
+    &quot;providers&quot;: [
+        {
+            &quot;type&quot;: &quot;ttf&quot;,
+            &quot;file&quot;: &quot;minecraft:unifont.ttf&quot;,
+            &quot;oversample&quot;: 8,
+            &quot;shnift&quot;: [0,0],
+            &quot;size&quot;: 8,
+            &quot;skip&quot;: [&quot;1&quot;, &quot;2&quot;]
+        }
+    ]
+}
+
+</code></pre>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../bitmap/" class="btn btn-neutral float-left" title="bitmap"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../space/" class="btn btn-neutral float-right" title="space">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../bitmap/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../space/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../../..";</script>
+    <script src="../../../../js/theme_extra.js"></script>
+    <script src="../../../../js/theme.js"></script>
+      <script src="../../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
