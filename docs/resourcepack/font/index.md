@@ -3,4 +3,4 @@
 출력되는 문자는 bitmap, ttf, space, unihex, reference 로 정할 수 있습니다.  
 
 # 경로
-`/assets/minecraft/font`  
+`assets/minecraft/font`  

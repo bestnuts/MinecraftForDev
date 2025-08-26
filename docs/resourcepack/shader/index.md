@@ -6,7 +6,7 @@ GLSL (OpenGL Shading Language) 해당 셰이더를 다루기 위한 기본 언�
 VSH (VERTEX) FSH (FRAGMENT) 로 역할을 분담합니다.  
 
 # 경로
-`/assets/minecraft/post_effect`  
-`/assets/minecraft/shaders/core`  
-`/assets/minecraft/shaders/include`  
-`/assets/minecraft/shaders/post`  
+`assets/minecraft/post_effect`  
+`assets/minecraft/shaders/core`  
+`assets/minecraft/shaders/include`  
+`assets/minecraft/shaders/post`  

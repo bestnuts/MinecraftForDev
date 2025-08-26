@@ -8,7 +8,7 @@ id : 리소스 경로입니다.
 ```
 
 # 예시
-`/assets/minecraft/font/default.json 전체 참고`
+`assets/minecraft/font/default.json 전체 참고`
 ```
 {
     "providers": [

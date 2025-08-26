@@ -16,7 +16,7 @@ ascent 는 height 보다 높을 수 없습니다.
 적용되는 이미지 파일은 256x256 크기를 넘길 수 없습니다.  
 
 # 예시
-`/assets/minecraft/font/default.json 160줄 참고`
+`assets/minecraft/font/default.json 160줄 참고`
 ```
 {
     "providers": [

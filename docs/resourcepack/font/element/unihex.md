@@ -14,7 +14,7 @@ size_overrides :
 ```
 
 # 예시
-`/assets/minecraft/font/include/unifont.json 1줄 참고`
+`assets/minecraft/font/include/unifont.json 1줄 참고`
 ```
 {
     "providers": [
