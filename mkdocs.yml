@@ -1,20 +1,25 @@
 site_name: Minecraft For Dev
 theme: 
-  name: readthedocs
-  language: kr
+  name: material
 nav: 
   - 홈: index.md
   - 데이터팩: 
     - 홈 : datapack/index.md
     - 리팩토링 :
       - 홈 : datapack/refactor/index.md
-      - 틱/로드 : datapack/refactor/element/0_tick_and_load.md
-      - 최상위 함수 : datapack/refactor/element/1_top_function.md
-      - 함수 우선순위 : datapack/refactor/element/2_function_priority.md
-      - 관리부와 실행부 : datapack/refactor/element/3_management_execution.md
-      - 단일 책임 : datapack/refactor/element/4_single_responsibility.md
-      - 이름의 가독성 : datapack/refactor/element/5_namespace_readability.md
-      - 중복 제거 : datapack/refactor/element/6_remove_duplicates.md
+      - 마인크래프트 :
+        - 틱/로드 : datapack/refactor/element/minecraft/0_tick_and_load.md
+        - 최상위 함수 : datapack/refactor/element/minecraft/1_top_function.md
+        - 함수 우선순위 : datapack/refactor/element/minecraft/2_function_priority.md
+        - 관리부와 실행부 : datapack/refactor/element/minecraft/3_management_execution.md
+      - 클린코드 :
+        - 단일 책임 : datapack/refactor/element/cleancode/0_single_responsibility.md
+        - 이름의 가독성 : datapack/refactor/element/cleancode/1_namespace_readability.md
+        - 중복 제거 : datapack/refactor/element/cleancode/2_remove_duplicates.md
+        - 주석 : datapack/refactor/element/cleancode/3_annotation.md
+    - 스니펫 :
+      - 홈 : datapack/snippet/index.md
+      - 회전 : datapack/snippet/element/rotation.md
   - 프로그램: 
     - 홈 : program/index.md
   - 리소스팩: 
