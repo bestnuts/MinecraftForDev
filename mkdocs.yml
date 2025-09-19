@@ -22,6 +22,11 @@ nav:
       - 회전 : datapack/snippet/element/rotation.md
   - 프로그램: 
     - 홈 : program/index.md
+    - renderdoc :
+      - 홈 : program/renderdoc/index.md
+      - 설치 : program/renderdoc/element/0_install.md
+      - 실행 : program/renderdoc/element/1_play.md
+      - 사용 : program/renderdoc/element/2_using.md
   - 리소스팩: 
     - 홈 : resourcepack/index.md
     - 폰트 :
