@@ -19,6 +19,7 @@ nav:
         - 주석 : datapack/refactor/element/cleancode/3_annotation.md
     - 스니펫 :
       - 홈 : datapack/snippet/index.md
+      - 아이디 : datapack/snippet/element/condition_undefined_number.md
       - 회전 : datapack/snippet/element/rotation.md
   - 프로그램: 
     - 홈 : program/index.md
