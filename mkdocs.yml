@@ -40,4 +40,10 @@ nav:
       - reference : resourcepack/font/element/reference.md
     - 셰이더 :
       - 홈 : resourcepack/shader/index.md
-      - core : resourcepack/shader/element/core.md
+      - 코어셰이더 : 
+        - 홈 : resourcepack/shader/core/index.md
+        - 스니펫 :
+          - 홈 : resourcepack/shader/core/snippet/index.md
+          - ivec4Color : resourcepack/shader/core/snippet/element/ivec4_color.md
+          - RayDirection : resourcepack/shader/core/snippet/element/ray_direction.md
+          - ViewBobbing : resourcepack/shader/core/snippet/element/remove_view_bobbing.md
