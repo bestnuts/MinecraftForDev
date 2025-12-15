@@ -1824,8 +1824,8 @@
 
 <h1 id="_1">설명</h1>
 <p><code>ivec4으로 RGBA를 받아온다.</code></p>
-<pre><code>ivec4 get_color(sampler2D tex, ivec2 pixel) {
-    return ivec4(texelFetch(tex, pixel, 0) * 255.5);
+<pre><code>ivec4 get_color(sampler2D tex, vec2 pixel) {
+    return ivec4(texture(tex, pixel) * 255.5);
 }
 </code></pre>
 
