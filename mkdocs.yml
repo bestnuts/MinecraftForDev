@@ -44,6 +44,9 @@ nav:
         - 홈 : resourcepack/shader/core/index.md
         - 스니펫 :
           - 홈 : resourcepack/shader/core/snippet/index.md
+          - GlPosition : resourcepack/shader/core/snippet/element/gl_position.md
+          - isGUI : resourcepack/shader/core/snippet/element/is_gui.md
+          - isHand : resourcepack/shader/core/snippet/element/is_hand.md
           - ivec4Color : resourcepack/shader/core/snippet/element/ivec4_color.md
           - RayDirection : resourcepack/shader/core/snippet/element/ray_direction.md
           - ViewBobbing : resourcepack/shader/core/snippet/element/remove_view_bobbing.md
