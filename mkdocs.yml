@@ -44,6 +44,8 @@ nav:
         - 홈 : resourcepack/shader/core/index.md
         - 스니펫 :
           - 홈 : resourcepack/shader/core/snippet/index.md
+          - DynamicNormal : resourcepack/shader/core/snippet/element/dynamic_normal.md
+          - fov : resourcepack/shader/core/snippet/element/fov.md
           - GlPosition : resourcepack/shader/core/snippet/element/gl_position.md
           - isGUI : resourcepack/shader/core/snippet/element/is_gui.md
           - isHand : resourcepack/shader/core/snippet/element/is_hand.md
