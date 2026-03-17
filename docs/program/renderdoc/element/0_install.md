@@ -3,5 +3,5 @@
 nsight-loader을 통해 RenderDoc와의 연결이 가능합니다.  
 
 # 링크
-<a href="https://modrinth.com/mod/nsight-loader/" target="_blank">nsight-loader (모드)</a>  
-<a href="https://renderdoc.org/" target="_blank">renderdoc (프로그램)</a>  
+<a href="https://modrinth.com/mod/nsight-loader" target="_blank">nsight-loader (모드)</a>  
+<a href="https://renderdoc.org" target="_blank">renderdoc (프로그램)</a>  
