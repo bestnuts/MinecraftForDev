@@ -51,5 +51,4 @@ size_overrides :
         }
     ]
 }
-
 ```

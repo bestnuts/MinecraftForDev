@@ -4,4 +4,4 @@
 <a href="https://github.com/misode/mcmeta/tree/assets" target="_blank">misode mcmeta GitHub</a>
 
 # 작성자 코멘트
-해당 문서를 통해서 폰트와 코어 셰이더에 대한 이해도를 올리시고 시스템과 연동시키시는걸 추천드립니다.  
+해당 문서를 통해서 리소스팩에 대한 전반적인 이해도를 올리시고 시스템과 연동시키시는걸 추천드립니다.  

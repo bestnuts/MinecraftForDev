@@ -30,6 +30,10 @@ nav:
       - 사용 : program/renderdoc/element/2_using.md
   - 리소스팩: 
     - 홈 : resourcepack/index.md
+    - 폴더 :
+      - 홈 : resourcepack/directory/index.md
+      - 뿌리 : resourcepack/directory/element/root.md
+      - 네임스페이스 : resourcepack/directory/element/namespace_key.md
     - 폰트 :
       - 홈 : resourcepack/font/index.md
       - providers : resourcepack/font/element/providers.md
@@ -38,6 +42,14 @@ nav:
       - space : resourcepack/font/element/space.md
       - unihex : resourcepack/font/element/unihex.md
       - reference : resourcepack/font/element/reference.md
+    - 팩메타 :
+      - 홈 : resourcepack/packmcmeta/index.md
+      - pack : resourcepack/packmcmeta/element/pack.md
+      - description : resourcepack/packmcmeta/element/description.md
+      - version_format : resourcepack/packmcmeta/element/version_format.md
+      - overlays : resourcepack/packmcmeta/element/overlays.md
+      - filter : resourcepack/packmcmeta/element/filter.md
+      - language : resourcepack/packmcmeta/element/language.md
     - 셰이더 :
       - 홈 : resourcepack/shader/index.md
       - 코어셰이더 : 
