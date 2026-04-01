@@ -64,3 +64,11 @@ nav:
           - ivec4Color : resourcepack/shader/core/snippet/element/ivec4_color.md
           - RayDirection : resourcepack/shader/core/snippet/element/ray_direction.md
           - ViewBobbing : resourcepack/shader/core/snippet/element/remove_view_bobbing.md
+    - 팁 :
+      - 홈 : resourcepack/tip/index.md
+      - 디버그 : resourcepack/tip/element/debug.md
+      - 폰트 : resourcepack/tip/element/font.md
+      - 밉맵 : resourcepack/tip/element/mipmap.md
+      - 모델 : resourcepack/tip/element/model.md
+      - 셰이더 : resourcepack/tip/element/shader.md
+      - 텍스쳐 : resourcepack/tip/element/texture.md
